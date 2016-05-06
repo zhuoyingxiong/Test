@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"hello!!");
+    NSLog(@"hello word!!");
     
 }
 -(NSArray *)arr
