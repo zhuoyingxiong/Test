@@ -19,6 +19,17 @@
     NSLog(@"hello!!");
     
 }
+-(NSArray *)arr
+{
+    if (_arr==nil) {
+        
+        NSArray *arr=[NSArray array];
+        _arr=arr;
+    }
+    
+    return _arr;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
