@@ -10,5 +10,7 @@
 
 @interface ViewController : UIViewController
 @property ( nonatomic , strong ) NSArray *arr;
+@property ( nonatomic , weak ) NSString *name;
+@property ( nonatomic , weak ) NSString *sex;
 @end
 
