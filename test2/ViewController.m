@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"haha");
+     [self setUPButton];
 }
 /**从新setter方法
  */
@@ -24,4 +25,17 @@
 {
     _name=name;
 }
+-(void)setUPButton
+{
+    UIButton *btn=[[UIButton alloc]init];
+    btn.backgroundColor=[UIColor redColor];
+    btn.frame=CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(Click) forControlEvents:UIControlEventTouchUpInside];
+}
+-(void)Click
+{
+    NSLog(@"Click------");
+}
+
 @end
