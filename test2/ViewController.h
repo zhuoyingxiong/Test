@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,weak)NSString *name;
+@property ( nonatomic , weak ) NSString *sex;
+@property ( nonatomic , strong ) UIView *view;
+
 
 @end
 
