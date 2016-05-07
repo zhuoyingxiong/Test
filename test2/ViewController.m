@@ -18,5 +18,10 @@
     [super viewDidLoad];
     NSLog(@"haha");
 }
-
+/**从新setter方法
+ */
+-(void)setName:(NSString *)name
+{
+    _name=name;
+}
 @end
